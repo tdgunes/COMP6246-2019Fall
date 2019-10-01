@@ -6,7 +6,7 @@ def run(command):
 	os.system(command)
 
 
-notebook_files = [filename for filename in glob.iglob('./lab*/*.ipynb', recursive=True)]
+notebook_files = [filename for filename in glob.iglob('./*/*.ipynb', recursive=True)]
 
 notebook_files.sort(key=lambda x: os.path.basename(os.path.dirname(x)))
 
