@@ -6,4 +6,4 @@ pandas==0.24.1
 scipy==1.2.1
 
 ##### Deep Learning packages
-tensorflow==1.13.1
+tensorflow==2.5.1
